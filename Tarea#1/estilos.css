@@ -1,0 +1,123 @@
+.logo {
+    width: 100px;
+    margin: 5px 5px;
+}
+
+body { 
+    height: 100vh;
+}
+
+nav {
+    width: 80%;
+    border-bottom: 2px solid #bd3274;
+    float:  right;
+    text-align: right;
+    margin: 20px 30px;
+}
+
+nav ul {
+    margin: 0px 50px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    border-right: 2px solid #bd3274;
+    padding: 10px 5%;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    height: 80%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.seccion-texto {
+    margin: 0 125px 10%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.seccion-img {
+    margin-bottom: 10%;
+}
+
+main section article h2 {
+    font-size: 75px;
+    color: #5884b1;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0;
+}
+
+main section article p {
+    font-size: 22px;
+    color: #bd3274;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.person {
+    width: 450px;
+    height: 450px;
+    border: 3px solid #f0a83b;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #bd3274;
+    color: white;
+    height: 90px;
+    margin: -30px 0;
+    display: flex;
+    justify-content: space-between;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.columna {
+    margin: 0px 50px;
+}
+
+.mensaje {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.span-derechos {
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+.direccion {
+    font-size: 16px;
+    letter-spacing: -1px;
+    margin-bottom: 0px;
+}
+
+.span-email { 
+    font-size: 13px;
+    color: #b8dfb1;
+    padding-left: 45%;
+}
+
