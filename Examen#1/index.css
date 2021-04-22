@@ -1,0 +1,128 @@
+body {
+    border-top: 10px solid #c35e67;
+    margin: 0px;
+}
+
+.logo {
+    padding-top: 25px;
+    padding-left: 48%;
+}
+
+nav {
+    background-color: #f9df4b;
+    height: 45px;
+    text-align: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 11px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 30px;
+}
+
+.btnOrder {
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.principal {
+    width: 25%;
+    border-radius: 25px;
+    margin: 40px;
+    margin-left: 18%;
+}
+
+.sectionPrincipal {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 80%;
+}
+
+.textoMain{
+    padding-top: 3%;
+    margin-left: 65px;
+}
+
+main section div h2 {
+    font-size: 38px;
+}
+
+main section div p {
+    font-size: 22px;
+    padding-bottom: 25px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+main section div a {
+    font-size: 20px;
+    color: #c35e67;
+    margin-left: 40%;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.sectionBottom {
+    margin-left: 42%;
+    width: 19%;
+}
+
+main section div h3 {
+    font-size: 32px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.pBottom {
+    margin-top: 0px;
+    font-size: 22px;
+    font-weight: 300;
+    color: #919191;
+    font-style: italic;
+}
+
+footer {
+    border-top: 1px solid #cdd767;
+    border-bottom: 11px solid #cdd767;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    height: 40px;
+    padding: 25px 110px;
+}
+
+footer span {
+    font-size: 12px;
+}
+
+.spanAzul {
+    padding-left: 42%;
+    color: #abd3d1;
+}
+
